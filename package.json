@@ -2,32 +2,29 @@
   "name": "canli-destek-analiz",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
-    "@headlessui/react": "^2.2.3",
-    "@heroicons/react": "^2.2.0",
-    "bcryptjs": "^3.0.2",
-    "jsonwebtoken": "^9.0.2",
-    "jspdf": "^3.0.1",
-    "next": "15.3.2",
-    "papaparse": "^5.5.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "recharts": "^2.15.3",
-    "xlsx": "^0.18.5",
-    "zustand": "^5.0.4"
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "recharts": "^2.7.2",
+    "zustand": "^4.3.9",
+    "papaparse": "^5.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.31",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "tailwindcss": "^4.1.7",
-    "typescript": "^5"
+    "@netlify/plugin-nextjs": "^4.40.1",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
   }
 }

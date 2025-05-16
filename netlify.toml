@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# SSR yerine statik site oluşturma için ayarlar
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NODE_VERSION = "18"
+
+# SPA yönlendirmeleri
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
